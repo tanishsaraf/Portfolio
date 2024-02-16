@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/843d9fdb9d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/0d/34/c9/0d34c9bf64824d1dd89ac7ecc8dbb0ba.jpg" type="image/x-icon" >
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Tanish </span><br>Saraf from IET DAVV</h1>      
+        </div>
+    </div>
+    </div>
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+
+                    <img src="https://i.pinimg.com/474x/0d/34/c9/0d34c9bf64824d1dd89ac7ecc8dbb0ba.jpg" >
+                </div>
+                <div class="about2">
+                 <h1 class="sub-title">About Me</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus 
+                    voluptates ducimus laudantium tenetur aliquid rerum aperiam fugiat quas 
+                    consectetur quam adipisci blanditiis, cum, porro ipsa ipsam omnis sed, vero 
+                    ratione! Quas, quae! Optio, tempora cupiditate dolore mque temporibus cum 
+                    veniam id fuga labore, eum vel nihil iure quae officiis aspernatur? Maxime 
+                    porro voluptas id architecto eum tempora error repellat, nihil voluptatum.</p>
+              
+                     
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p> 
+                       <p class="tab-links " onclick="opentab('Experience')">Experience</p> 
+                       <p class="tab-links" onclick="opentab('Education')">Education</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web App Development</li>
+                            <li><span>Programming Languages </span><br>Designing Web/App interfaces</li>
+                            <li><span>Data Structures</span><br>Building Android/iOS apps</li>
+                            <li><span>Cloud Computing</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-2023</span><br>VLSI Course by NIELIT Calicut</li>
+                            <li><span>2023-2023</span><br>TCS ESG Internship</li>
+                            <li><span>2023-2023</span><br>Verzon Cloud Computing Internship</li>
+                            <li><span>2023-2023</span><br>Accenture Developer and Technology Internship </li>
+                            </ul>
+                           </div>
+
+                           <div class="tab-contents" id="Education">
+                          <ul>
+                            <li><span>2021-2025</span><br>Bachelor of Engineering (Electronics & Telecommunication Engineering)<br>
+                                Institute of Engineering and Technology DAVV , Indore
+                            <br><strong class="cgpa">CGPA - 7.25 </strong></li>
+
+                            <li><span>2017-2021</span><br>Schooling from Campion School Bhopal<br><br>
+                                <strong class="cgpa">
+                                    Class 12th - 85%
+                                    <br>Class 10th - 83%</li>
+                                </strong>
+
+                        
+                         </ul>
+                    </div>
+                </div>
+        </div>
+
+        
+    </div>
+</div>
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, repudiandae! Enim ratione quam iure voluptatum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    
+                    <h2>Data Structures and Algorithms</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, repudiandae! Enim ratione quam iure voluptatum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Cloud Computing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, repudiandae! Enim ratione quam iure voluptatum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="portpolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+       <div class="work-list">
+        <div class="work">
+        <img src="work-1.png" >
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt ut temporibus fuga doloribus modi.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="work-3.png" >
+        <div class="layer">
+            <h3>Music App</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt ut temporibus fuga doloribus modi.</p>
+            <a href="C:\Users\HP\Downloads\DSA\vs code\WEB DEV\Tik Tsk Toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="work-2.png" >
+        <div class="layer">
+            <h3>Gaming App</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sunt ut temporibus fuga doloribus modi.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+       </div>
+        </div>
+            
+      </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1> 
+                    <p><i class="fa-solid fa-paper-plane"></i>tanishsaraf0709@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+918109692081</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tanish-saraf-25969a228/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © Tanish Saraf IET DAVV INDORE</p>
+
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }    
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+            
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+   </script>
+
+</body>
+
+
+</html>   
